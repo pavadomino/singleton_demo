@@ -22,6 +22,8 @@ class Logger
   def log_something wat
     @f.puts wat
   end
+
+  private_class_method :new
 end
 
 Logger.say_something
